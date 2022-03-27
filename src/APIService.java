@@ -6,6 +6,7 @@ import java.net.URL;
 public interface APIService {
 
     /**
+     *
      * @param api_request Specify the api method to execute
      */
     default void request(String api_request) {
