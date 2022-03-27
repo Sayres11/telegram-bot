@@ -3,7 +3,6 @@ public class Bot implements APIService {
 
     Bot(String api) {
         API_KEY = api;
-        sendMessage("5251434810", "interface");
     }
 
     public static String getAPI_KEY() {
